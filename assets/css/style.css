@@ -53,6 +53,15 @@
   --font-light: 300;
   --font-medium: 500;
   --font-semi-bold: 600;
+
+  /* -- Margin -- */
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+
 }
 
 .square {
