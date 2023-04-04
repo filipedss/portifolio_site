@@ -1,7 +1,61 @@
-.style-test{
-    color:#0056c8;
-}
 
 .font-test{
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /*--Colors--*/
+
+  /*--main color--*/
+  --base-color1:220;
+
+  /*--mid range - normal--*/
+  --saturation-level1:20%;
+  --saturation-level2:50%;
+  --saturation-level3:80%;
+  /* mid range - normal--*/
+  --lightness-level1:75%;
+  --lightness-level2:50%;
+  --lightness-level3:35%;
+  /* no opacity - normal--*/
+  --opacity-level1:100%;
+  --opacity-level2:80%;
+  --opacity-level3:60%;
+
+  --main-color: hsla( var(--base-color1),
+                      var(--saturation-level3),
+                      var(--lightness-level2),
+                      var(--opacity-level1));
+
+  --main-color-light: hsla( var(--base-color1),
+                            var(--saturation-level3),
+                            var(--lightness-level1),
+                            var(--opacity-level1));
+
+  --main-color-dark: hsla( var(--base-color1),
+                           var(--saturation-level3),
+                           var(--lightness-level3),
+                           var(--opacity-level1));  
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: var(--main-color);
+}
+
+.square1 {
+  height: 50px;
+  width: 50px;
+  background-color: var(--main-color-light);
+}
+
+.square2 {
+  height: 50px;
+  width: 50px;
+  background-color: var(--main-color-dark);
+}
+
+.style-test{
+  color: var(--main-color);
 }
