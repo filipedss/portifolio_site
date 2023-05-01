@@ -4,6 +4,7 @@
 }
 
 :root {
+  --header-height: 3rem;
   /*--Colors--*/
 
   /*--main color--*/
@@ -36,6 +37,9 @@
                            var(--saturation-level3),
                            var(--lightness-level3),
                            var(--opacity-level1));  
+
+  --text-color: hsl(var(--base-color1),var(--saturation-level1),var(--lightness-level2));
+  --body-color: hsl(var(--base-color1), 60%, 99%);
 
   /*--Font and Typography--*/
   --body-font: 'Poppins', sans-serif;
@@ -81,6 +85,25 @@
   }
 }
 
+/* Base*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0 0 var(--header-height) 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  background-color: var(--body-color);
+
+}
 
 .square {
   height: 50px;
