@@ -121,8 +121,8 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* Reusable css classes */
 
+/* Reusable css classes */
 .section{
   padding: 2rem 0 4rem;
 }
@@ -140,6 +140,12 @@ img {
 .section__title,
 .section__subtitle{
   text-align: center;
+}
+
+.container {
+  max-width: 768px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
 }
 
 .square {
