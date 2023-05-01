@@ -148,6 +148,11 @@ img {
   margin-right: var(--mb-1-5);
 }
 
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
 .square {
   height: 50px;
   width: 50px;
