@@ -40,7 +40,7 @@
 
   --text-color: hsl(var(--base-color1),var(--saturation-level1),var(--lightness-level2));
   --body-color: hsl(var(--base-color1), 60%, 99%);
-
+  --title-color: hsl(var(--base-color1), 8%, 15%);
   /*--Font and Typography--*/
   --body-font: 'Poppins', sans-serif;
 
@@ -102,7 +102,10 @@ body{
   font-size: var(--normal-font-size);
   color: var(--text-color);
   background-color: var(--body-color);
+}
 
+h1,h2,h3,h4{
+  color: 
 }
 
 .square {
