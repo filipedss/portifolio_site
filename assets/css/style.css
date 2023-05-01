@@ -152,26 +152,3 @@ img {
   display: grid;
   gap: 1.5rem;
 }
-
-.square {
-  height: 50px;
-  width: 50px;
-  background-color: var(--main-color);
-}
-
-.square1 {
-  height: 50px;
-  width: 50px;
-  background-color: var(--main-color-light);
-}
-
-.square2 {
-  height: 50px;
-  width: 50px;
-  background-color: var(--main-color-dark);
-}
-
-.style-test{
-  color: var(--main-color);
-  font-weight: var(--font-light);
-}
