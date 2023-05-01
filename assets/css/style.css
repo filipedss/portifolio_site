@@ -105,9 +105,13 @@ body{
 }
 
 h1,h2,h3,h4{
-  color: 
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
 }
 
+ul {
+  list-style: none;
+}
 .square {
   height: 50px;
   width: 50px;
