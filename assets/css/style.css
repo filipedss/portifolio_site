@@ -196,6 +196,7 @@ img {
 }
 
 /*nav menu mobile devices*/
+/*hide menu*/
 @media screen and (max-width: 767px){
   .nav__menu{
     position: fixed;
@@ -209,7 +210,10 @@ img {
   }
 }
 
-
+/*show menu*/
+.show-menu{
+  bottom: 0;
+}
 /* Reusable css classes */
 .section{
   padding: 2rem 0 4rem;
