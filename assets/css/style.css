@@ -124,7 +124,7 @@ img {
   height: auto;
 }
 
-/* Nav */
+/* == Nav == */
 .nav{
   max-width: 968px;
   height: var(--header-height);
@@ -195,8 +195,8 @@ img {
   z-index: var(--z-fixed);
 }
 
-/*nav menu mobile devices*/
-/*hide menu*/
+/* == nav menu mobile devices == */
+/*initial state menu*/
 @media screen and (max-width: 767px){
   .nav__menu{
     position: fixed;
@@ -214,7 +214,8 @@ img {
 .show-menu{
   bottom: 0;
 }
-/* Reusable css classes */
+
+/* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
 }
