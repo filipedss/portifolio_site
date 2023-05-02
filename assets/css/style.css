@@ -165,6 +165,10 @@ img {
   color: var(--title-color);
 }
 
+.nav__link:hover{
+  color: var(--main-color);
+}
+
 .header{
   width: 100%;
   position: fixed;
