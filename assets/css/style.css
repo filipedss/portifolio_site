@@ -41,6 +41,7 @@
   --text-color: hsl(var(--base-color1),var(--saturation-level1),var(--lightness-level2));
   --body-color: hsl(var(--base-color1), 60%, 99%);
   --title-color: hsl(var(--base-color1), 8%, 15%);
+  --main-color-alt: hsl(var(--base-color1), var(--saturation-level2), var(--lightness-level2));
   /*--Font and Typography--*/
   --body-font: 'Poppins', sans-serif;
 
@@ -171,6 +172,19 @@ img {
 
 .nav__icon{
   font-size: 1.2rem;
+}
+
+.nav__close{
+  position: absolute;
+  right: 1.3rem;
+  bottom: .5rem;
+  font-size: 1.5rem;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.nav__close:hover{
+  color: var(--main-color-alt);
 }
 
 .header{
