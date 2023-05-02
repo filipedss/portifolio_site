@@ -169,6 +169,10 @@ img {
   color: var(--main-color);
 }
 
+.nav__icon{
+  font-size: 1.2rem;
+}
+
 .header{
   width: 100%;
   position: fixed;
