@@ -228,6 +228,31 @@ img {
   height: auto;
 }
 
+.home__container{
+  gap: 1rem;
+}
+
+.home__content{
+  grid-template-columns: .5fr 3fr;
+  padding-top: 3.5rem;
+  align-items: center;
+}
+
+.home__social{
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: .7rem;
+}
+
+.home__social-icon{
+  font-size: 1.4rem;
+  color: var(--main-color);
+}
+
+.home__social-icon:hover{
+  color: var(--main-color-alt);
+}
+
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
