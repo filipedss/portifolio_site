@@ -266,6 +266,7 @@ img {
 
 .home__description{
   margin-bottom: var(--mb-2);
+  padding-right: .8rem;
 }
 
 .home__data{
