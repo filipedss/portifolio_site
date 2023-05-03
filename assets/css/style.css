@@ -279,6 +279,7 @@ img {
   border-radius: .5rem;
   padding: 1rem;
   font-weight: var(--font-medium);
+  font-size: .950rem;
   width: 140px;
   text-align: center;
 }
@@ -286,6 +287,12 @@ img {
 .button:hover {
   background-color: var(--main-color-alt);
 }
+
+.button__icon{
+  font-size: 1.25rem;
+  transition: .3s;
+}
+
 
 
 
