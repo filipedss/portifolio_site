@@ -264,9 +264,14 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
+.home__description{
+  margin-bottom: var(--mb-2);
+}
+
 .home__data{
   grid-column: 1/3;
 }
+
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
