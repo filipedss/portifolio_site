@@ -216,6 +216,18 @@ img {
   bottom: 0;
 }
 
+/* == home == */
+.home__blob{
+  width: 300px;
+  height: auto;
+  fill: var(--main-color);
+}
+
+.home__blob-img{
+  width: 100px;
+  height: auto;
+}
+
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
