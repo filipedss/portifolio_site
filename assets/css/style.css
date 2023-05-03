@@ -280,6 +280,10 @@ img {
   padding: 1rem;
   font-weight: var(--font-medium);
 }
+
+.button:hover {
+  background-color: var(--main-color-alt);
+}
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
