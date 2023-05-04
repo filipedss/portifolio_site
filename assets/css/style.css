@@ -301,6 +301,10 @@ img {
   color: var(--main-color);
 }
 
+.about__description{
+  margin-bottom: var(--mb-1-5);
+}
+
 
 /* == Reusable css classes == */
 .section{
