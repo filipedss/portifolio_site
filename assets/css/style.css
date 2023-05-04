@@ -295,16 +295,9 @@ img {
 }
 
 /*== about == */
-.icon__about{
-  text-align: center;
-  font-size: 1.5rem;
-  color: var(--main-color);
-}
-
 .about__description{
   margin-bottom: var(--mb-1-5);
 }
-
 
 /* == Reusable css classes == */
 .section{
@@ -335,5 +328,11 @@ img {
 .grid {
   display: grid;
   gap: 1.5rem;
+}
+
+.icon__title{
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--main-color);
 }
 
