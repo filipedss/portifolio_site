@@ -298,6 +298,22 @@ img {
 .about__description{
   margin-bottom: var(--mb-1-5);
 }
+/* == skills ==*/
+.icon__skills{
+  width: 56px;
+  height: auto;
+}
+
+.skills__info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2);
+}
+
+.skills__info-title {
+  display: block;
+  text-align: center;
+}
 
 /* == Reusable css classes == */
 .section{
