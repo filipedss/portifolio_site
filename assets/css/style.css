@@ -300,8 +300,11 @@ img {
 }
 /* == skills ==*/
 .icon__skills{
+  display: block;
   width: 56px;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skills__info {
@@ -313,6 +316,10 @@ img {
 .skills__info-title {
   display: block;
   text-align: center;
+}
+
+.skill_grid{
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* == Reusable css classes == */
