@@ -322,6 +322,11 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* == job experience ==*/
+.experience__bg{
+  background-color: var(--main-color);
+  padding-top: 3rem;
+}
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
