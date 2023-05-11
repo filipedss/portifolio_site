@@ -397,8 +397,14 @@ img {
 .portifolio__subtitle{
   margin-bottom: var(--mb-0-75);
 }
+
 .portifolio__button:hover .button__icon{
   margin-left: .25rem;
+}
+
+.portifolio__button{
+  width: 115px;
+  text-align: center;
 }
 
 .swiper-portifolio-icon{
