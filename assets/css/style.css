@@ -395,6 +395,9 @@ img {
 .portifolio__subtitle{
   margin-bottom: var(--mb-0-75);
 }
+.portifolio__button:hover .button__icon{
+  margin-left: .25rem;
+}
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
