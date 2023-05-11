@@ -297,6 +297,7 @@ img {
 .button--white{
   background-color: #fff;
   color: var(--main-color);
+  margin-bottom: 3rem;
 }
 
 .button--white:hover{
@@ -403,4 +404,5 @@ img {
   color:#fff;
   text-align: center;
   font-size: 1.5rem;
+ 
 }
