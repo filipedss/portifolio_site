@@ -339,11 +339,24 @@ img {
 
 .experience__title{
   font-size: var(--h2-font-size);
-  margin-bottom: var(--mb-0-75);
+  margin-bottom: var(--mb-2);
+}
+
+.experience__subtitle{
+  font-size: 1rem;
+  margin-bottom: var(--mb-0-5);
+  color: #fff;
+}
+
+.experience__description{
+  margin-bottom: var(--mb-2);
+  padding-right: .8rem;
+  color: #fff;
 }
 
 .experience__title{
   color:#fff;
+  text-align: center;
 }
 
 .experience__img{
