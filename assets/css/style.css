@@ -341,10 +341,17 @@ img {
 
 .experience__title{
   font-size: var(--h2-font-size);
-  margin-bottom: var(--mb-2);
 }
 
 .experience__subtitle{
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-2);
+  color: #fff;
+  text-align: center;
+}
+
+.experience__subtitle--topic{
   font-size: 1rem;
   margin-bottom: var(--mb-0-5);
   color: #fff;
