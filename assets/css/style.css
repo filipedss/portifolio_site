@@ -398,6 +398,14 @@ img {
 .portifolio__button:hover .button__icon{
   margin-left: .25rem;
 }
+.swiper-horizontal > .swiper-pagination-bullets{
+  bottom: -2.5rem;
+  display: block;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: var(--main-color);
+}
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;

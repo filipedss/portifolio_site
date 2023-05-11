@@ -29,3 +29,17 @@ function linkAction(){
 
 /* add event listener to all menu links*/
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+/*== portifolio swiper ==*/
+let swiper = new Swiper('.portifolio__container', {
+  cssMode:true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  mousewheel:true,
+  keyboard: true,
+});
