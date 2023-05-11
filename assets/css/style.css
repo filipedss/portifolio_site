@@ -294,6 +294,15 @@ img {
   transition: .3s;
 }
 
+.button--white{
+  background-color: #fff;
+  color: var(--main-color);
+}
+
+.button--white:hover{
+  background-color:#fff;
+}
+
 /*== about == */
 .about__description{
   margin-bottom: var(--mb-1-5);
@@ -326,6 +335,19 @@ img {
 .experience__bg{
   background-color: var(--main-color);
   padding-top: 3rem;
+}
+
+.experience__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.experience__title{
+  color:#fff;
+}
+
+.experience__img{
+  justify-self: center;
 }
 /* == Reusable css classes == */
 .section{
