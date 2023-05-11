@@ -335,7 +335,8 @@ img {
 /* == job experience ==*/
 .experience__bg{
   background-color: var(--main-color);
-  padding-top: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
 }
 
 .experience__title{
