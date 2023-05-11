@@ -410,7 +410,14 @@ img {
   background-color: var(--main-color);
 }
 
+.swiper-horizontal > .swiper-pagination-bullets {
+  top: 180px !important;
+  z-index: 1;
+}
 
+.swiper-pagination-bullet-active{
+  background-color: var(--main-color);
+}
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
