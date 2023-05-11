@@ -371,6 +371,30 @@ img {
 .experience__img{
   justify-self: center;
 }
+
+/* == portifolio ==*/
+.portifolio__container{
+  overflow: initial;
+}
+
+.portifolio__content{
+  padding: 0 1.5rem;
+}
+
+.portifolio__img{
+  width: 265px;
+  border-radius: .4rem;
+  justify-self: center;
+}
+
+.portifolio__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portifolio__subtitle{
+  margin-bottom: var(--mb-0-75);
+}
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
