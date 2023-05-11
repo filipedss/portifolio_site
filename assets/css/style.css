@@ -399,3 +399,8 @@ img {
   color: var(--main-color);
 }
 
+.icon__title--white {
+  color:#fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
