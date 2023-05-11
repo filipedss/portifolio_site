@@ -38,8 +38,7 @@ let swiper = new Swiper('.portifolio__container', {
     prevEl: '.swiper-button-prev',
   },
   pagination: {
-    el: '.swiper-pagination'
+    el: '.swiper-pagination',
+    clickable: true,
   },
-  mousewheel:true,
-  keyboard: true,
 });

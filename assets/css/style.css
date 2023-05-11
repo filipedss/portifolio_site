@@ -403,6 +403,11 @@ img {
   display: block;
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content:'' !important;
+}
+
 .swiper-pagination-bullet-active{
   background-color: var(--main-color);
 }
