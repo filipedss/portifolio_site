@@ -386,12 +386,16 @@ img {
   width: 265px;
   border-radius: .4rem;
   justify-self: center;
-  margin-bottom: 4.5rem;
 }
 
 .portifolio__title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
+  margin-top: 4rem;
+}
+
+.portifolio__description{
+  margin-bottom: var(--mb-1);
 }
 
 .portifolio__subtitle{
@@ -407,28 +411,26 @@ img {
   text-align: center;
 }
 
-.swiper-portifolio-icon{
-  font-size: 2rem;
-  color: var(--main-color);
-}
-
 .swiper-pagination-bullet-active{
   background-color: var(--main-color);
 }
 
 .swiper-horizontal > .swiper-pagination-bullets {
-  top: 180px !important;
+  top: 150px !important;
   z-index: 1;
 }
 
 .swiper-pagination-bullet-active{
   background-color: var(--main-color);
 }
+
+.swiper-button-next, .swiper-button-prev {
+  top: var(--swiper-navigation-top-offset,40%) !important;
+}
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
 }
-
 
 .section__title{
   font-size: var(--h1-font-size);
