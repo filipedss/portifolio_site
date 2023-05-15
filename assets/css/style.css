@@ -427,6 +427,23 @@ img {
 .swiper-button-next, .swiper-button-prev {
   top: var(--swiper-navigation-top-offset,40%) !important;
 }
+
+/* == contact == */
+.contact__information{
+  display: flex;
+  margin-bottom: var(--mb-2);
+}
+.contact__icon{
+  font-size: 2.2rem;
+  color: var(--main-color);
+  margin-right: var(--mb-0-75);
+}
+.contact__title{
+  font-size: .9rem;
+  line-height: 1.2rem;
+  text-decoration: underline;
+  text-decoration-style:solid;
+}
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
