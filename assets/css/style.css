@@ -39,6 +39,9 @@
                            var(--lightness-level3),
                            var(--opacity-level1));  
 
+--main-color-lighter: hsl(var(--base-color1), var(--saturation-level3), var(--lightness-level1))
+
+
   --text-color: hsl(var(--base-color1),var(--saturation-level1),var(--lightness-level2));
   --body-color: hsl(var(--base-color1), 60%, 99%);
   --title-color: hsl(var(--base-color1), 8%, 15%);
@@ -220,7 +223,7 @@ img {
 
 /* == home == */
 .home__blob{
-  width: 300px;
+  width: 260px;
   height: auto;
   fill: var(--main-color);
 }
@@ -440,10 +443,57 @@ img {
 }
 .contact__title{
   font-size: .9rem;
+}
+.contact__subtitle{
+  font-size: .75rem;
   line-height: 1.2rem;
   text-decoration: underline;
   text-decoration-style:solid;
 }
+/* == footer == */
+.footer{
+  padding-top: 2rem;
+}
+
+.footer__bg {
+  background-color: var(--main-color);
+  padding: 2rem 0 3rem;
+}
+.footer__container{
+ row-gap: 3.5rem !important;
+}
+
+.footer__subtitle{
+  font-size: var(--small-font-size);
+}
+
+.footer__links{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.footer__link:hover{
+  color: var(--main-color-lighter);
+}
+
+.footer__social{
+  font-size: 1.25rem;
+  margin-right: var(--mb-1-5);
+}
+
+.footer__social:hover{
+  color: var(--main-color-lighter);
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social{
+  color: #fff;
+}
+
+
 /* == Reusable css classes == */
 .section{
   padding: 2rem 0 4rem;
@@ -487,3 +537,4 @@ img {
   font-size: 1.5rem;
  
 }
+
