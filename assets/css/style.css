@@ -386,7 +386,7 @@ img {
 }
 
 .portifolio__img{
-  width: 265px;
+  width: 275px;
   border-radius: .4rem;
   justify-self: center;
 }
@@ -455,6 +455,17 @@ img {
   padding-top: 2rem;
 }
 
+.footer__copy{
+  font-size: var(--small-font-size);
+  color: #fff;
+
+}
+
+.footer__copy a{
+  text-decoration: underline;
+  text-decoration-style:solid;
+}
+
 .footer__bg {
   background-color: var(--main-color);
   padding: 2rem 0 3rem;
@@ -470,7 +481,8 @@ img {
 .footer__links{
   display: flex;
   flex-direction: column;
-  row-gap: 1.5rem;
+  row-gap: 1.25rem;
+  
 }
 
 .footer__link:hover{
@@ -481,6 +493,7 @@ img {
   font-size: 1.25rem;
   margin-right: var(--mb-1-5);
 }
+
 
 .footer__social:hover{
   color: var(--main-color-lighter);
