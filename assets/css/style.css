@@ -414,6 +414,10 @@ img {
   text-align: center;
 }
 
+.swiper-pagination {
+  z-index: 0 !important;
+}
+
 .swiper-pagination-bullet-active{
   background-color: var(--main-color);
 }
