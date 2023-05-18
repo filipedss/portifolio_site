@@ -414,6 +414,19 @@ img {
   text-align: center;
 }
 
+.portifolio__landingpage{
+  margin-bottom: var(--mb-0-5)
+}
+
+.portifolio__landingpage > a{
+  text-decoration: underline !important;
+  color: var(--main-color);
+}
+
+.portifolio__ul{
+  margin-bottom: var(--mb-1);
+}
+
 .swiper-pagination {
   z-index: 0 !important;
 }
@@ -432,7 +445,7 @@ img {
 }
 
 .swiper-button-next, .swiper-button-prev {
-  top: var(--swiper-navigation-top-offset,40%) !important;
+  top: var(--swiper-navigation-top-offset,30%) !important;
 }
 
 /* == contact == */
