@@ -30,8 +30,8 @@ function linkAction(){
 /* add event listener to all menu links*/
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*== portifolio swiper ==*/
-let swiper = new Swiper('.portifolio__container', {
+/*== portfolio swiper ==*/
+let swiper = new Swiper('.portfolio__container', {
   cssMode:true,
   navigation: {
     nextEl: '.swiper-button-next',
