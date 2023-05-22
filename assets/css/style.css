@@ -386,7 +386,7 @@ img {
 }
 
 .portfolio__img{
-  width: 275px;
+  width: 290px;
   border-radius: .4rem;
   justify-self: center;
 }
@@ -551,7 +551,7 @@ img {
 }
 
 .grid {
-  display: grid;
+  display: grid !important;
   gap: 1.5rem;
 }
 
@@ -607,5 +607,7 @@ img {
     order: 1;
     justify-self: center;
   }
-  
+  .experience__img{
+    width: 400px;
+  }
 }
