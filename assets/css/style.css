@@ -410,7 +410,7 @@ img {
 }
 
 .portfolio__button{
-  width: 150px;
+  width: 160px;
   text-align: center;
 }
 
@@ -436,7 +436,7 @@ img {
 }
 
 .swiper-horizontal > .swiper-pagination-bullets {
-  top: 150px !important;
+  top: 190px !important;
   z-index: 1;
 }
 
